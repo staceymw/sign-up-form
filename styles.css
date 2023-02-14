@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inconsolata", sans-serif;
+}
+
+.content{
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    flex-flow: row;
+    height: auto;
+    text-align: center;
+}
+
+.big-photo {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    width: 50vw;
+    height: 100vh;
+    max-width: 640px;
+}
+
+.right{
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+}
+
+.text {
+    background-color: #cefad0;
+    font-size: 20px;
+}
+
+.elephant {
+    height: 100px;
+    width: 100px;
+}
+
+.ele-rule {
+    font-size: 26px;
+}
+
+.photo-credits {
+    position: absolute;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightgray
+}
