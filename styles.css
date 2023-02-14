@@ -52,3 +52,20 @@
     margin-left: auto;
     background-color: lightgray
 }
+
+.form {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 20px;
+        padding:20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+.input {
+        display: flex;
+        flex-flow: column wrap;
+        width: 40%;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+}
