@@ -7,7 +7,6 @@
     display: flex;
     width: 100vw;
     height: 100vw;
-    flex-flow: row;
     height: auto;
     text-align: center;
 }
@@ -26,9 +25,10 @@
 }
 
 .right{
-    width: 100vw;
+    width: 60vw;
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 .text {
@@ -64,8 +64,7 @@
 
 .input {
         display: flex;
-        flex-flow: column wrap;
-        width: 40%;
+        flex-flow: column;
         font-size: 0.7rem;
         text-transform: uppercase;
 }
